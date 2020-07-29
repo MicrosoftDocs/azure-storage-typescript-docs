@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/storage-blob.PageList'
+    name: PageList
+    fullName: PageList
+    children:
+      - '@azure/storage-blob.PageList.clearRange'
+      - '@azure/storage-blob.PageList.pageRange'
+    langs:
+      - typeScript
+    type: interface
+    summary: List of page ranges for a blob.
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.PageList.clearRange'
+    name: clearRange
+    fullName: clearRange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Present if the prevSnapshot parameter was specified and there were cleared
+      pages between the previous snapshot and the target snapshot.
+    optional: true
+    syntax:
+      content: 'clearRange?: Range[]'
+      return:
+        type:
+          - '@azure/storage-blob.Range[]'
+        description: ''
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.PageList.pageRange'
+    name: pageRange
+    fullName: pageRange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Valid non-overlapping page ranges.
+    optional: true
+    syntax:
+      content: 'pageRange?: Range[]'
+      return:
+        type:
+          - '@azure/storage-blob.Range[]'
+        description: ''
+    package: '@azure/storage-blob'
+references:
+  - uid: '@azure/storage-blob.Range[]'
+    name: 'Range[]'
+    spec.typeScript:
+      - name: Range
+        fullName: Range
+        uid: '@azure/storage-blob.Range'
+      - name: '[]'
+        fullName: '[]'
