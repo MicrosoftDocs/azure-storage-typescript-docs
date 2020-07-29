@@ -8,6 +8,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
+        "group": "az-storage-js-v12",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -46,8 +47,14 @@
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml"
     },
+    "groups":
+    {
+      "az-storage-js-v12": {
+        "dest": "az-storage-js-v12",
+        "moniker_range": "az-storage-js-v12"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "_site"
   }
-}
+}}
