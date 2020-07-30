@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/storage-file-share.ShareGetStatisticsResponse'
+    name: ShareGetStatisticsResponse
+    fullName: ShareGetStatisticsResponse
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: 'Response data for the <xref:ShareClient.getStatistics> Operation.'
+    syntax:
+      content: >-
+        type ShareGetStatisticsResponse = ShareGetStatisticsResponseModel & {
+        shareUsage: number }
+    package: '@azure/storage-file-share'
