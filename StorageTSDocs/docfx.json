@@ -19,6 +19,22 @@
         ]
       },
       {
+      "files": [
+        "**/*.md",
+        "**/*.yml"
+      ],
+      "src": "v10/docs-ref-autogen",
+      "group": "az-storage-js-v10",
+      "exclude": [
+        "**/obj/**",
+        "**/includes/**",
+        "README.md",
+        "LICENSE",
+        "LICENSE-CODE",
+        "ThirdPartyNotices"
+      ]
+    },
+      {
         "files": [
           "**/*.yml"
         ],
@@ -52,6 +68,10 @@
       "az-storage-js-v12": {
         "dest": "az-storage-js-v12",
         "moniker_range": "az-storage-js-v12"
+      },
+      "az-storage-js-v10": {
+        "dest": "az-storage-js-v10",
+        "moniker_range": "az-storage-js-v10"
       }
     },
     "fileMetadata": {},
