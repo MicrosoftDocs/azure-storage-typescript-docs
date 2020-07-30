@@ -8,6 +8,8 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
+        "group": "az-storage-js-v12",
+        "dest": "api/testing/js",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -18,11 +20,28 @@
         ]
       },
       {
+      "files": [
+        "**/*.md",
+        "**/*.yml"
+      ],
+      "src": "v10/docs-ref-autogen",
+      "group": "az-storage-js-v10",
+      "dest": "api/testing/js",
+      "exclude": [
+        "**/obj/**",
+        "**/includes/**",
+        "README.md",
+        "LICENSE",
+        "LICENSE-CODE",
+        "ThirdPartyNotices"
+      ]
+    },
+      {
         "files": [
           "**/*.yml"
         ],
         "src": "breadcrumb",
-        "dest": "breadcrumb",
+        "dest": "api/testing/js/breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -44,7 +63,18 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
+      "breadcrumb_path": "~/api/testing/js/breadcrumb/toc.yml"
+    },
+    "groups":
+    {
+      "az-storage-js-v12": {
+        "dest": "az-storage-js-v12",
+        "moniker_range": "az-storage-js-v12"
+      },
+      "az-storage-js-v10": {
+        "dest": "az-storage-js-v10",
+        "moniker_range": "az-storage-js-v10"
+      }
     },
     "fileMetadata": {},
     "template": [],
