@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/storage-queue.StorageClient'
+    name: StorageClient
+    fullName: StorageClient
+    children:
+      - '@azure/storage-queue.StorageClient.accountName'
+      - '@azure/storage-queue.StorageClient.url'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A StorageClient represents a based client class for
+      <xref:QueueServiceClient>, <xref:QueueClient> and etc.
+    package: '@azure/storage-queue'
+  - uid: '@azure/storage-queue.StorageClient.accountName'
+    name: accountName
+    fullName: accountName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'accountName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/storage-queue'
+  - uid: '@azure/storage-queue.StorageClient.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: URL string value.
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/storage-queue'

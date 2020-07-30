@@ -875,3 +875,325 @@
     - uid: '@azure/storage-blob.UserDelegationKeyModel'
       name: UserDelegationKeyModel
       items: []
+- name: '@azure/storage-queue'
+  items:
+    - name: Overview
+      uid: '@azure/storage-queue'
+    - uid: '@azure/storage-queue.AccessPolicy'
+      name: AccessPolicy
+      items: []
+    - uid: '@azure/storage-queue.AccountSASPermissions'
+      name: AccountSASPermissions
+      items: []
+    - uid: '@azure/storage-queue.AccountSASResourceTypes'
+      name: AccountSASResourceTypes
+      items: []
+    - uid: '@azure/storage-queue.AccountSASServices'
+      name: AccountSASServices
+      items: []
+    - uid: '@azure/storage-queue.AccountSASSignatureValues'
+      name: AccountSASSignatureValues
+      items: []
+    - uid: '@azure/storage-queue.AnonymousCredential'
+      name: AnonymousCredential
+      items: []
+    - uid: '@azure/storage-queue.AnonymousCredentialPolicy'
+      name: AnonymousCredentialPolicy
+      items: []
+    - uid: '@azure/storage-queue.CommonOptions'
+      name: CommonOptions
+      items: []
+    - uid: '@azure/storage-queue.CorsRule'
+      name: CorsRule
+      items: []
+    - uid: '@azure/storage-queue.Credential'
+      name: Credential
+      items: []
+    - uid: '@azure/storage-queue.CredentialPolicy'
+      name: CredentialPolicy
+      items: []
+    - uid: '@azure/storage-queue.CredentialPolicyCreator'
+      name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-queue.DequeuedMessageItem'
+      name: DequeuedMessageItem
+      items: []
+    - uid: '@azure/storage-queue.EnqueuedMessage'
+      name: EnqueuedMessage
+      items: []
+    - uid: '@azure/storage-queue.GeoReplication'
+      name: GeoReplication
+      items: []
+    - uid: '@azure/storage-queue.GeoReplicationStatusType'
+      name: GeoReplicationStatusType
+      items: []
+    - uid: '@azure/storage-queue.ListQueuesIncludeType'
+      name: ListQueuesIncludeType
+      items: []
+    - uid: '@azure/storage-queue.ListQueuesSegmentResponse'
+      name: ListQueuesSegmentResponse
+      items: []
+    - uid: '@azure/storage-queue.Logging'
+      name: Logging
+      items: []
+    - uid: '@azure/storage-queue.MessageIdDeleteHeaders'
+      name: MessageIdDeleteHeaders
+      items: []
+    - uid: '@azure/storage-queue.MessageIdDeleteResponse'
+      name: MessageIdDeleteResponse
+      items: []
+    - uid: '@azure/storage-queue.MessageIdUpdateHeaders'
+      name: MessageIdUpdateHeaders
+      items: []
+    - uid: '@azure/storage-queue.MessageIdUpdateResponse'
+      name: MessageIdUpdateResponse
+      items: []
+    - uid: '@azure/storage-queue.MessagesClearHeaders'
+      name: MessagesClearHeaders
+      items: []
+    - uid: '@azure/storage-queue.MessagesClearResponse'
+      name: MessagesClearResponse
+      items: []
+    - uid: '@azure/storage-queue.MessagesDequeueHeaders'
+      name: MessagesDequeueHeaders
+      items: []
+    - uid: '@azure/storage-queue.MessagesDequeueOptionalParams'
+      name: MessagesDequeueOptionalParams
+      items: []
+    - uid: '@azure/storage-queue.MessagesEnqueueHeaders'
+      name: MessagesEnqueueHeaders
+      items: []
+    - uid: '@azure/storage-queue.MessagesEnqueueOptionalParams'
+      name: MessagesEnqueueOptionalParams
+      items: []
+    - uid: '@azure/storage-queue.MessagesPeekHeaders'
+      name: MessagesPeekHeaders
+      items: []
+    - uid: '@azure/storage-queue.MessagesPeekOptionalParams'
+      name: MessagesPeekOptionalParams
+      items: []
+    - uid: '@azure/storage-queue.Metadata'
+      name: Metadata
+      items: []
+    - uid: '@azure/storage-queue.Metrics'
+      name: Metrics
+      items: []
+    - uid: '@azure/storage-queue.PeekedMessageItem'
+      name: PeekedMessageItem
+      items: []
+    - uid: '@azure/storage-queue.Pipeline'
+      name: Pipeline
+      items: []
+    - uid: '@azure/storage-queue.PipelineOptions'
+      name: PipelineOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueClearMessagesOptions'
+      name: QueueClearMessagesOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueClearMessagesResponse'
+      name: QueueClearMessagesResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueClient'
+      name: QueueClient
+      items: []
+    - uid: '@azure/storage-queue.QueueCreateHeaders'
+      name: QueueCreateHeaders
+      items: []
+    - uid: '@azure/storage-queue.QueueCreateIfNotExistsResponse'
+      name: QueueCreateIfNotExistsResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueCreateOptions'
+      name: QueueCreateOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueCreateResponse'
+      name: QueueCreateResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueDeleteHeaders'
+      name: QueueDeleteHeaders
+      items: []
+    - uid: '@azure/storage-queue.QueueDeleteIfExistsResponse'
+      name: QueueDeleteIfExistsResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueDeleteMessageOptions'
+      name: QueueDeleteMessageOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueDeleteMessageResponse'
+      name: QueueDeleteMessageResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueDeleteOptions'
+      name: QueueDeleteOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueDeleteResponse'
+      name: QueueDeleteResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueExistsOptions'
+      name: QueueExistsOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueGetAccessPolicyHeaders'
+      name: QueueGetAccessPolicyHeaders
+      items: []
+    - uid: '@azure/storage-queue.QueueGetAccessPolicyOptions'
+      name: QueueGetAccessPolicyOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueGetAccessPolicyResponse'
+      name: QueueGetAccessPolicyResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueGetPropertiesHeaders'
+      name: QueueGetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-queue.QueueGetPropertiesOptions'
+      name: QueueGetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueGetPropertiesResponse'
+      name: QueueGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueItem'
+      name: QueueItem
+      items: []
+    - uid: '@azure/storage-queue.QueuePeekMessagesOptions'
+      name: QueuePeekMessagesOptions
+      items: []
+    - uid: '@azure/storage-queue.QueuePeekMessagesResponse'
+      name: QueuePeekMessagesResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueReceiveMessageOptions'
+      name: QueueReceiveMessageOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueReceiveMessageResponse'
+      name: QueueReceiveMessageResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueSASPermissions'
+      name: QueueSASPermissions
+      items: []
+    - uid: '@azure/storage-queue.QueueSASSignatureValues'
+      name: QueueSASSignatureValues
+      items: []
+    - uid: '@azure/storage-queue.QueueSendMessageOptions'
+      name: QueueSendMessageOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueSendMessageResponse'
+      name: QueueSendMessageResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueServiceClient'
+      name: QueueServiceClient
+      items: []
+    - uid: '@azure/storage-queue.QueueServiceProperties'
+      name: QueueServiceProperties
+      items: []
+    - uid: '@azure/storage-queue.QueueServiceStatistics'
+      name: QueueServiceStatistics
+      items: []
+    - uid: '@azure/storage-queue.QueueSetAccessPolicyHeaders'
+      name: QueueSetAccessPolicyHeaders
+      items: []
+    - uid: '@azure/storage-queue.QueueSetAccessPolicyOptions'
+      name: QueueSetAccessPolicyOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueSetAccessPolicyResponse'
+      name: QueueSetAccessPolicyResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueSetMetadataHeaders'
+      name: QueueSetMetadataHeaders
+      items: []
+    - uid: '@azure/storage-queue.QueueSetMetadataOptions'
+      name: QueueSetMetadataOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueSetMetadataResponse'
+      name: QueueSetMetadataResponse
+      items: []
+    - uid: '@azure/storage-queue.QueueUpdateMessageOptions'
+      name: QueueUpdateMessageOptions
+      items: []
+    - uid: '@azure/storage-queue.QueueUpdateMessageResponse'
+      name: QueueUpdateMessageResponse
+      items: []
+    - uid: '@azure/storage-queue.ReceivedMessageItem'
+      name: ReceivedMessageItem
+      items: []
+    - uid: '@azure/storage-queue.RetentionPolicy'
+      name: RetentionPolicy
+      items: []
+    - uid: '@azure/storage-queue.SasIPRange'
+      name: SasIPRange
+      items: []
+    - uid: '@azure/storage-queue.SASProtocol'
+      name: SASProtocol
+      items: []
+    - uid: '@azure/storage-queue.SASQueryParameters'
+      name: SASQueryParameters
+      items: []
+    - uid: '@azure/storage-queue.ServiceGetPropertiesHeaders'
+      name: ServiceGetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-queue.ServiceGetPropertiesOptions'
+      name: ServiceGetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-queue.ServiceGetPropertiesResponse'
+      name: ServiceGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-queue.ServiceGetStatisticsHeaders'
+      name: ServiceGetStatisticsHeaders
+      items: []
+    - uid: '@azure/storage-queue.ServiceGetStatisticsOptions'
+      name: ServiceGetStatisticsOptions
+      items: []
+    - uid: '@azure/storage-queue.ServiceGetStatisticsResponse'
+      name: ServiceGetStatisticsResponse
+      items: []
+    - uid: '@azure/storage-queue.ServiceListQueuesOptions'
+      name: ServiceListQueuesOptions
+      items: []
+    - uid: '@azure/storage-queue.ServiceListQueuesSegmentHeaders'
+      name: ServiceListQueuesSegmentHeaders
+      items: []
+    - uid: '@azure/storage-queue.ServiceListQueuesSegmentResponse'
+      name: ServiceListQueuesSegmentResponse
+      items: []
+    - uid: '@azure/storage-queue.ServiceSetPropertiesHeaders'
+      name: ServiceSetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-queue.ServiceSetPropertiesOptions'
+      name: ServiceSetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-queue.ServiceSetPropertiesResponse'
+      name: ServiceSetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-queue.SignedIdentifier'
+      name: SignedIdentifier
+      items: []
+    - uid: '@azure/storage-queue.SignedIdentifierModel'
+      name: SignedIdentifierModel
+      items: []
+    - uid: '@azure/storage-queue.StorageBrowserPolicy'
+      name: StorageBrowserPolicy
+      items: []
+    - uid: '@azure/storage-queue.StorageBrowserPolicyFactory'
+      name: StorageBrowserPolicyFactory
+      items: []
+    - uid: '@azure/storage-queue.StorageClient'
+      name: StorageClient
+      items: []
+    - uid: '@azure/storage-queue.StorageClientContext'
+      name: StorageClientContext
+      items: []
+    - uid: '@azure/storage-queue.StoragePipelineOptions'
+      name: StoragePipelineOptions
+      items: []
+    - uid: '@azure/storage-queue.StorageRetryOptions'
+      name: StorageRetryOptions
+      items: []
+    - uid: '@azure/storage-queue.StorageRetryPolicy'
+      name: StorageRetryPolicy
+      items: []
+    - uid: '@azure/storage-queue.StorageRetryPolicyFactory'
+      name: StorageRetryPolicyFactory
+      items: []
+    - uid: '@azure/storage-queue.StorageRetryPolicyType'
+      name: StorageRetryPolicyType
+      items: []
+    - uid: '@azure/storage-queue.StorageSharedKeyCredential'
+      name: StorageSharedKeyCredential
+      items: []
+    - uid: '@azure/storage-queue.StorageSharedKeyCredentialPolicy'
+      name: StorageSharedKeyCredentialPolicy
+      items: []
