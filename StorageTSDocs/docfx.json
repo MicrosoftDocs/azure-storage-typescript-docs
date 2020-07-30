@@ -9,7 +9,7 @@
         ],
         "src": "docs-ref-autogen",
         "group": "az-storage-js-v12",
-        "dest": "api/testing",
+        "dest": "api/testing/js",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -26,7 +26,7 @@
       ],
       "src": "v10/docs-ref-autogen",
       "group": "az-storage-js-v10",
-      "dest": "api/testing",
+      "dest": "api/testing/js",
       "exclude": [
         "**/obj/**",
         "**/includes/**",
@@ -41,7 +41,7 @@
           "**/*.yml"
         ],
         "src": "breadcrumb",
-        "dest": "api/testing/breadcrumb",
+        "dest": "api/testing/js/breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -63,7 +63,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/api/testing/breadcrumb/toc.yml"
+      "breadcrumb_path": "~/api/testing/js/breadcrumb/toc.yml"
     },
     "groups":
     {
