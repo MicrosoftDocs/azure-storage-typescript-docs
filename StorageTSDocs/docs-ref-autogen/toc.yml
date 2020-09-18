@@ -355,14 +355,32 @@
     - uid: '@azure/arm-storage.ListContainerItems'
       name: ListContainerItems
       items: []
+    - uid: '@azure/arm-storage.ListContainersInclude'
+      name: ListContainersInclude
+      items: []
     - uid: '@azure/arm-storage.ListKeyExpand'
       name: ListKeyExpand
+      items: []
+    - uid: '@azure/arm-storage.ListQueue'
+      name: ListQueue
+      items: []
+    - uid: '@azure/arm-storage.ListQueueResource'
+      name: ListQueueResource
+      items: []
+    - uid: '@azure/arm-storage.ListQueueServices'
+      name: ListQueueServices
       items: []
     - uid: '@azure/arm-storage.ListServiceSasResponse'
       name: ListServiceSasResponse
       items: []
     - uid: '@azure/arm-storage.ListSharesExpand'
       name: ListSharesExpand
+      items: []
+    - uid: '@azure/arm-storage.ListTableResource'
+      name: ListTableResource
+      items: []
+    - uid: '@azure/arm-storage.ListTableServices'
+      name: ListTableServices
       items: []
     - uid: '@azure/arm-storage.ManagementPolicies'
       name: ManagementPolicies
@@ -399,6 +417,9 @@
       items: []
     - uid: '@azure/arm-storage.MetricSpecification'
       name: MetricSpecification
+      items: []
+    - uid: '@azure/arm-storage.MinimumTlsVersion'
+      name: MinimumTlsVersion
       items: []
     - uid: '@azure/arm-storage.NetworkRuleSet'
       name: NetworkRuleSet
@@ -495,6 +516,51 @@
       items: []
     - uid: '@azure/arm-storage.PublicAccess'
       name: PublicAccess
+      items: []
+    - uid: '@azure/arm-storage.Queue'
+      name: Queue
+      items: []
+    - uid: '@azure/arm-storage.QueueCreateOptionalParams'
+      name: QueueCreateOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.QueueCreateResponse'
+      name: QueueCreateResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueGetResponse'
+      name: QueueGetResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueListNextResponse'
+      name: QueueListNextResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueListOptionalParams'
+      name: QueueListOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.QueueListResponse'
+      name: QueueListResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueServiceProperties'
+      name: QueueServiceProperties
+      items: []
+    - uid: '@azure/arm-storage.QueueServices'
+      name: QueueServices
+      items: []
+    - uid: '@azure/arm-storage.QueueServicesGetServicePropertiesResponse'
+      name: QueueServicesGetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueServicesListResponse'
+      name: QueueServicesListResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueServicesSetServicePropertiesOptionalParams'
+      name: QueueServicesSetServicePropertiesOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.QueueServicesSetServicePropertiesResponse'
+      name: QueueServicesSetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueUpdateOptionalParams'
+      name: QueueUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.QueueUpdateResponse'
+      name: QueueUpdateResponse
       items: []
     - uid: '@azure/arm-storage.Reason'
       name: Reason
@@ -655,8 +721,50 @@
     - uid: '@azure/arm-storage.StorageManagementClientOptions'
       name: StorageManagementClientOptions
       items: []
+    - uid: '@azure/arm-storage.StorageQueue'
+      name: StorageQueue
+      items: []
     - uid: '@azure/arm-storage.StorageSkuListResult'
       name: StorageSkuListResult
+      items: []
+    - uid: '@azure/arm-storage.Table'
+      name: Table
+      items: []
+    - uid: '@azure/arm-storage.TableCreateResponse'
+      name: TableCreateResponse
+      items: []
+    - uid: '@azure/arm-storage.TableGetResponse'
+      name: TableGetResponse
+      items: []
+    - uid: '@azure/arm-storage.TableListNextResponse'
+      name: TableListNextResponse
+      items: []
+    - uid: '@azure/arm-storage.TableListResponse'
+      name: TableListResponse
+      items: []
+    - uid: '@azure/arm-storage.TableOperations'
+      name: TableOperations
+      items: []
+    - uid: '@azure/arm-storage.TableServiceProperties'
+      name: TableServiceProperties
+      items: []
+    - uid: '@azure/arm-storage.TableServices'
+      name: TableServices
+      items: []
+    - uid: '@azure/arm-storage.TableServicesGetServicePropertiesResponse'
+      name: TableServicesGetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.TableServicesListResponse'
+      name: TableServicesListResponse
+      items: []
+    - uid: '@azure/arm-storage.TableServicesSetServicePropertiesOptionalParams'
+      name: TableServicesSetServicePropertiesOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.TableServicesSetServicePropertiesResponse'
+      name: TableServicesSetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.TableUpdateResponse'
+      name: TableUpdateResponse
       items: []
     - uid: '@azure/arm-storage.TagFilter'
       name: TagFilter
@@ -761,6 +869,9 @@
     - uid: '@azure/storage-blob.AppendBlobRequestConditions'
       name: AppendBlobRequestConditions
       items: []
+    - uid: '@azure/storage-blob.AppendBlobSealOptions'
+      name: AppendBlobSealOptions
+      items: []
     - uid: '@azure/storage-blob.AppendPositionAccessConditions'
       name: AppendPositionAccessConditions
       items: []
@@ -860,6 +971,9 @@
     - uid: '@azure/storage-blob.BlobDownloadResponseModel'
       name: BlobDownloadResponseModel
       items: []
+    - uid: '@azure/storage-blob.BlobDownloadResponseParsed'
+      name: BlobDownloadResponseParsed
+      items: []
     - uid: '@azure/storage-blob.BlobDownloadToBufferOptions'
       name: BlobDownloadToBufferOptions
       items: []
@@ -880,6 +994,9 @@
       items: []
     - uid: '@azure/storage-blob.BlobGetPropertiesResponse'
       name: BlobGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-blob.BlobGetPropertiesResponseModel'
+      name: BlobGetPropertiesResponseModel
       items: []
     - uid: '@azure/storage-blob.BlobGetTagsHeaders'
       name: BlobGetTagsHeaders
@@ -928,9 +1045,6 @@
       items: []
     - uid: '@azure/storage-blob.BlobQueryResponseModel'
       name: BlobQueryResponseModel
-      items: []
-    - uid: '@azure/storage-blob.BlobQueryTextConfiguration'
-      name: BlobQueryTextConfiguration
       items: []
     - uid: '@azure/storage-blob.BlobReleaseLeaseOptions'
       name: BlobReleaseLeaseOptions
@@ -1190,6 +1304,9 @@
     - uid: '@azure/storage-blob.ContainerRenewLeaseOptions'
       name: ContainerRenewLeaseOptions
       items: []
+    - uid: '@azure/storage-blob.ContainerRequestConditions'
+      name: ContainerRequestConditions
+      items: []
     - uid: '@azure/storage-blob.ContainerSASPermissions'
       name: ContainerSASPermissions
       items: []
@@ -1295,14 +1412,32 @@
     - uid: '@azure/storage-blob.Logging'
       name: Logging
       items: []
+    - uid: '@azure/storage-blob.MatchConditions'
+      name: MatchConditions
+      items: []
     - uid: '@azure/storage-blob.Metadata'
       name: Metadata
       items: []
     - uid: '@azure/storage-blob.Metrics'
       name: Metrics
       items: []
+    - uid: '@azure/storage-blob.ModificationConditions'
+      name: ModificationConditions
+      items: []
     - uid: '@azure/storage-blob.ModifiedAccessConditions'
       name: ModifiedAccessConditions
+      items: []
+    - uid: '@azure/storage-blob.ModifiedAccessConditionsModel'
+      name: ModifiedAccessConditionsModel
+      items: []
+    - uid: '@azure/storage-blob.ObjectReplicationPolicy'
+      name: ObjectReplicationPolicy
+      items: []
+    - uid: '@azure/storage-blob.ObjectReplicationRule'
+      name: ObjectReplicationRule
+      items: []
+    - uid: '@azure/storage-blob.ObjectReplicationStatus'
+      name: ObjectReplicationStatus
       items: []
     - uid: '@azure/storage-blob.PageBlobClearPagesHeaders'
       name: PageBlobClearPagesHeaders
@@ -1559,6 +1694,9 @@
     - uid: '@azure/storage-blob.SyncCopyStatusType'
       name: SyncCopyStatusType
       items: []
+    - uid: '@azure/storage-blob.TagConditions'
+      name: TagConditions
+      items: []
     - uid: '@azure/storage-blob.Tags'
       name: Tags
       items: []
@@ -1674,6 +1812,18 @@
     - uid: '@azure/storage-file-datalake.FileParallelUploadOptions'
       name: FileParallelUploadOptions
       items: []
+    - uid: '@azure/storage-file-datalake.FileQueryCsvTextConfiguration'
+      name: FileQueryCsvTextConfiguration
+      items: []
+    - uid: '@azure/storage-file-datalake.FileQueryError'
+      name: FileQueryError
+      items: []
+    - uid: '@azure/storage-file-datalake.FileQueryJsonTextConfiguration'
+      name: FileQueryJsonTextConfiguration
+      items: []
+    - uid: '@azure/storage-file-datalake.FileQueryOptions'
+      name: FileQueryOptions
+      items: []
     - uid: '@azure/storage-file-datalake.FileReadHeaders'
       name: FileReadHeaders
       items: []
@@ -1787,6 +1937,9 @@
       items: []
     - uid: '@azure/storage-file-datalake.Metadata'
       name: Metadata
+      items: []
+    - uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
+      name: ModifiedAccessConditions
       items: []
     - uid: '@azure/storage-file-datalake.Path'
       name: Path
@@ -2443,6 +2596,9 @@
       items: []
     - uid: '@azure/storage-file-share.ServiceSetPropertiesResponse'
       name: ServiceSetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-share.ServiceUndeleteShareOptions'
+      name: ServiceUndeleteShareOptions
       items: []
     - uid: '@azure/storage-file-share.SetPropertiesResponse'
       name: SetPropertiesResponse
