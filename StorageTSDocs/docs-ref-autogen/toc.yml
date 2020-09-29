@@ -1,3 +1,804 @@
+- name: '@azure/arm-storage'
+  items:
+    - name: Overview
+      uid: '@azure/arm-storage'
+    - uid: '@azure/arm-storage.AccessTier'
+      name: AccessTier
+      items: []
+    - uid: '@azure/arm-storage.AccountSasParameters'
+      name: AccountSasParameters
+      items: []
+    - uid: '@azure/arm-storage.AccountStatus'
+      name: AccountStatus
+      items: []
+    - uid: '@azure/arm-storage.Action'
+      name: Action
+      items: []
+    - uid: '@azure/arm-storage.Action1'
+      name: Action1
+      items: []
+    - uid: '@azure/arm-storage.ActiveDirectoryProperties'
+      name: ActiveDirectoryProperties
+      items: []
+    - uid: '@azure/arm-storage.AzureEntityResource'
+      name: AzureEntityResource
+      items: []
+    - uid: '@azure/arm-storage.AzureFilesIdentityBasedAuthentication'
+      name: AzureFilesIdentityBasedAuthentication
+      items: []
+    - uid: '@azure/arm-storage.BlobContainer'
+      name: BlobContainer
+      items: []
+    - uid: '@azure/arm-storage.BlobContainers'
+      name: BlobContainers
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersClearLegalHoldResponse'
+      name: BlobContainersClearLegalHoldResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyHeaders'
+      name: BlobContainersCreateOrUpdateImmutabilityPolicyHeaders
+      items: []
+    - uid: >-
+        @azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams
+      name: BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyResponse
+      name: BlobContainersCreateOrUpdateImmutabilityPolicyResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersCreateResponse'
+      name: BlobContainersCreateResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyHeaders'
+      name: BlobContainersDeleteImmutabilityPolicyHeaders
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyResponse'
+      name: BlobContainersDeleteImmutabilityPolicyResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersExtendImmutabilityPolicyHeaders'
+      name: BlobContainersExtendImmutabilityPolicyHeaders
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersExtendImmutabilityPolicyOptionalParams'
+      name: BlobContainersExtendImmutabilityPolicyOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersExtendImmutabilityPolicyResponse'
+      name: BlobContainersExtendImmutabilityPolicyResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersGetImmutabilityPolicyHeaders'
+      name: BlobContainersGetImmutabilityPolicyHeaders
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersGetImmutabilityPolicyOptionalParams'
+      name: BlobContainersGetImmutabilityPolicyOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersGetImmutabilityPolicyResponse'
+      name: BlobContainersGetImmutabilityPolicyResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersGetResponse'
+      name: BlobContainersGetResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersLeaseOptionalParams'
+      name: BlobContainersLeaseOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersLeaseResponse'
+      name: BlobContainersLeaseResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersListNextResponse'
+      name: BlobContainersListNextResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersListOptionalParams'
+      name: BlobContainersListOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersListResponse'
+      name: BlobContainersListResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersLockImmutabilityPolicyHeaders'
+      name: BlobContainersLockImmutabilityPolicyHeaders
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersLockImmutabilityPolicyResponse'
+      name: BlobContainersLockImmutabilityPolicyResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersSetLegalHoldResponse'
+      name: BlobContainersSetLegalHoldResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobContainersUpdateResponse'
+      name: BlobContainersUpdateResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobRestoreParameters'
+      name: BlobRestoreParameters
+      items: []
+    - uid: '@azure/arm-storage.BlobRestoreProgressStatus'
+      name: BlobRestoreProgressStatus
+      items: []
+    - uid: '@azure/arm-storage.BlobRestoreRange'
+      name: BlobRestoreRange
+      items: []
+    - uid: '@azure/arm-storage.BlobRestoreStatus'
+      name: BlobRestoreStatus
+      items: []
+    - uid: '@azure/arm-storage.BlobServiceItems'
+      name: BlobServiceItems
+      items: []
+    - uid: '@azure/arm-storage.BlobServiceProperties'
+      name: BlobServiceProperties
+      items: []
+    - uid: '@azure/arm-storage.BlobServices'
+      name: BlobServices
+      items: []
+    - uid: '@azure/arm-storage.BlobServicesGetServicePropertiesResponse'
+      name: BlobServicesGetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobServicesListResponse'
+      name: BlobServicesListResponse
+      items: []
+    - uid: '@azure/arm-storage.BlobServicesSetServicePropertiesResponse'
+      name: BlobServicesSetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.Bypass'
+      name: Bypass
+      items: []
+    - uid: '@azure/arm-storage.ChangeFeed'
+      name: ChangeFeed
+      items: []
+    - uid: '@azure/arm-storage.CheckNameAvailabilityResult'
+      name: CheckNameAvailabilityResult
+      items: []
+    - uid: '@azure/arm-storage.CorsRule'
+      name: CorsRule
+      items: []
+    - uid: '@azure/arm-storage.CorsRules'
+      name: CorsRules
+      items: []
+    - uid: '@azure/arm-storage.CustomDomain'
+      name: CustomDomain
+      items: []
+    - uid: '@azure/arm-storage.DateAfterCreation'
+      name: DateAfterCreation
+      items: []
+    - uid: '@azure/arm-storage.DateAfterModification'
+      name: DateAfterModification
+      items: []
+    - uid: '@azure/arm-storage.DefaultAction'
+      name: DefaultAction
+      items: []
+    - uid: '@azure/arm-storage.DeletedShare'
+      name: DeletedShare
+      items: []
+    - uid: '@azure/arm-storage.DeleteRetentionPolicy'
+      name: DeleteRetentionPolicy
+      items: []
+    - uid: '@azure/arm-storage.Dimension'
+      name: Dimension
+      items: []
+    - uid: '@azure/arm-storage.DirectoryServiceOptions'
+      name: DirectoryServiceOptions
+      items: []
+    - uid: '@azure/arm-storage.EnabledProtocols'
+      name: EnabledProtocols
+      items: []
+    - uid: '@azure/arm-storage.Encryption'
+      name: Encryption
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScope'
+      name: EncryptionScope
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopeKeyVaultProperties'
+      name: EncryptionScopeKeyVaultProperties
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopeListResult'
+      name: EncryptionScopeListResult
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopes'
+      name: EncryptionScopes
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopesGetResponse'
+      name: EncryptionScopesGetResponse
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopesListNextResponse'
+      name: EncryptionScopesListNextResponse
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopesListResponse'
+      name: EncryptionScopesListResponse
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopeSource'
+      name: EncryptionScopeSource
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopesPatchResponse'
+      name: EncryptionScopesPatchResponse
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopesPutResponse'
+      name: EncryptionScopesPutResponse
+      items: []
+    - uid: '@azure/arm-storage.EncryptionScopeState'
+      name: EncryptionScopeState
+      items: []
+    - uid: '@azure/arm-storage.EncryptionService'
+      name: EncryptionService
+      items: []
+    - uid: '@azure/arm-storage.EncryptionServices'
+      name: EncryptionServices
+      items: []
+    - uid: '@azure/arm-storage.Endpoints'
+      name: Endpoints
+      items: []
+    - uid: '@azure/arm-storage.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/arm-storage.FileServiceItems'
+      name: FileServiceItems
+      items: []
+    - uid: '@azure/arm-storage.FileServiceProperties'
+      name: FileServiceProperties
+      items: []
+    - uid: '@azure/arm-storage.FileServices'
+      name: FileServices
+      items: []
+    - uid: '@azure/arm-storage.FileServicesGetServicePropertiesResponse'
+      name: FileServicesGetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.FileServicesListResponse'
+      name: FileServicesListResponse
+      items: []
+    - uid: '@azure/arm-storage.FileServicesSetServicePropertiesOptionalParams'
+      name: FileServicesSetServicePropertiesOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.FileServicesSetServicePropertiesResponse'
+      name: FileServicesSetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.FileShare'
+      name: FileShare
+      items: []
+    - uid: '@azure/arm-storage.FileShareItem'
+      name: FileShareItem
+      items: []
+    - uid: '@azure/arm-storage.FileShareItems'
+      name: FileShareItems
+      items: []
+    - uid: '@azure/arm-storage.FileShares'
+      name: FileShares
+      items: []
+    - uid: '@azure/arm-storage.FileSharesCreateResponse'
+      name: FileSharesCreateResponse
+      items: []
+    - uid: '@azure/arm-storage.FileSharesGetOptionalParams'
+      name: FileSharesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.FileSharesGetResponse'
+      name: FileSharesGetResponse
+      items: []
+    - uid: '@azure/arm-storage.FileSharesListNextResponse'
+      name: FileSharesListNextResponse
+      items: []
+    - uid: '@azure/arm-storage.FileSharesListOptionalParams'
+      name: FileSharesListOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.FileSharesListResponse'
+      name: FileSharesListResponse
+      items: []
+    - uid: '@azure/arm-storage.FileSharesUpdateResponse'
+      name: FileSharesUpdateResponse
+      items: []
+    - uid: '@azure/arm-storage.GeoReplicationStats'
+      name: GeoReplicationStats
+      items: []
+    - uid: '@azure/arm-storage.GeoReplicationStatus'
+      name: GeoReplicationStatus
+      items: []
+    - uid: '@azure/arm-storage.GetShareExpand'
+      name: GetShareExpand
+      items: []
+    - uid: '@azure/arm-storage.HttpProtocol'
+      name: HttpProtocol
+      items: []
+    - uid: '@azure/arm-storage.Identity'
+      name: Identity
+      items: []
+    - uid: '@azure/arm-storage.ImmutabilityPolicy'
+      name: ImmutabilityPolicy
+      items: []
+    - uid: '@azure/arm-storage.ImmutabilityPolicyProperties'
+      name: ImmutabilityPolicyProperties
+      items: []
+    - uid: '@azure/arm-storage.ImmutabilityPolicyState'
+      name: ImmutabilityPolicyState
+      items: []
+    - uid: '@azure/arm-storage.ImmutabilityPolicyUpdateType'
+      name: ImmutabilityPolicyUpdateType
+      items: []
+    - uid: '@azure/arm-storage.IPRule'
+      name: IPRule
+      items: []
+    - uid: '@azure/arm-storage.KeyPermission'
+      name: KeyPermission
+      items: []
+    - uid: '@azure/arm-storage.KeySource'
+      name: KeySource
+      items: []
+    - uid: '@azure/arm-storage.KeyType'
+      name: KeyType
+      items: []
+    - uid: '@azure/arm-storage.KeyVaultProperties'
+      name: KeyVaultProperties
+      items: []
+    - uid: '@azure/arm-storage.Kind'
+      name: Kind
+      items: []
+    - uid: '@azure/arm-storage.LargeFileSharesState'
+      name: LargeFileSharesState
+      items: []
+    - uid: '@azure/arm-storage.LeaseContainerRequest'
+      name: LeaseContainerRequest
+      items: []
+    - uid: '@azure/arm-storage.LeaseContainerResponse'
+      name: LeaseContainerResponse
+      items: []
+    - uid: '@azure/arm-storage.LeaseDuration'
+      name: LeaseDuration
+      items: []
+    - uid: '@azure/arm-storage.LeaseState'
+      name: LeaseState
+      items: []
+    - uid: '@azure/arm-storage.LeaseStatus'
+      name: LeaseStatus
+      items: []
+    - uid: '@azure/arm-storage.LegalHold'
+      name: LegalHold
+      items: []
+    - uid: '@azure/arm-storage.LegalHoldProperties'
+      name: LegalHoldProperties
+      items: []
+    - uid: '@azure/arm-storage.ListAccountSasResponse'
+      name: ListAccountSasResponse
+      items: []
+    - uid: '@azure/arm-storage.ListContainerItem'
+      name: ListContainerItem
+      items: []
+    - uid: '@azure/arm-storage.ListContainerItems'
+      name: ListContainerItems
+      items: []
+    - uid: '@azure/arm-storage.ListContainersInclude'
+      name: ListContainersInclude
+      items: []
+    - uid: '@azure/arm-storage.ListKeyExpand'
+      name: ListKeyExpand
+      items: []
+    - uid: '@azure/arm-storage.ListQueue'
+      name: ListQueue
+      items: []
+    - uid: '@azure/arm-storage.ListQueueResource'
+      name: ListQueueResource
+      items: []
+    - uid: '@azure/arm-storage.ListQueueServices'
+      name: ListQueueServices
+      items: []
+    - uid: '@azure/arm-storage.ListServiceSasResponse'
+      name: ListServiceSasResponse
+      items: []
+    - uid: '@azure/arm-storage.ListSharesExpand'
+      name: ListSharesExpand
+      items: []
+    - uid: '@azure/arm-storage.ListTableResource'
+      name: ListTableResource
+      items: []
+    - uid: '@azure/arm-storage.ListTableServices'
+      name: ListTableServices
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicies'
+      name: ManagementPolicies
+      items: []
+    - uid: '@azure/arm-storage.ManagementPoliciesCreateOrUpdateResponse'
+      name: ManagementPoliciesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-storage.ManagementPoliciesGetResponse'
+      name: ManagementPoliciesGetResponse
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicy'
+      name: ManagementPolicy
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicyAction'
+      name: ManagementPolicyAction
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicyBaseBlob'
+      name: ManagementPolicyBaseBlob
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicyDefinition'
+      name: ManagementPolicyDefinition
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicyFilter'
+      name: ManagementPolicyFilter
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicyRule'
+      name: ManagementPolicyRule
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicySchema'
+      name: ManagementPolicySchema
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicySnapShot'
+      name: ManagementPolicySnapShot
+      items: []
+    - uid: '@azure/arm-storage.MetricSpecification'
+      name: MetricSpecification
+      items: []
+    - uid: '@azure/arm-storage.MinimumTlsVersion'
+      name: MinimumTlsVersion
+      items: []
+    - uid: '@azure/arm-storage.NetworkRuleSet'
+      name: NetworkRuleSet
+      items: []
+    - uid: '@azure/arm-storage.ObjectReplicationPolicies'
+      name: ObjectReplicationPolicies
+      items: []
+    - uid: '@azure/arm-storage.ObjectReplicationPoliciesCreateOrUpdateResponse'
+      name: ObjectReplicationPoliciesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-storage.ObjectReplicationPoliciesGetResponse'
+      name: ObjectReplicationPoliciesGetResponse
+      items: []
+    - uid: '@azure/arm-storage.ObjectReplicationPoliciesListResponse'
+      name: ObjectReplicationPoliciesListResponse
+      items: []
+    - uid: '@azure/arm-storage.ObjectReplicationPoliciesOperations'
+      name: ObjectReplicationPoliciesOperations
+      items: []
+    - uid: '@azure/arm-storage.ObjectReplicationPolicy'
+      name: ObjectReplicationPolicy
+      items: []
+    - uid: '@azure/arm-storage.ObjectReplicationPolicyFilter'
+      name: ObjectReplicationPolicyFilter
+      items: []
+    - uid: '@azure/arm-storage.ObjectReplicationPolicyRule'
+      name: ObjectReplicationPolicyRule
+      items: []
+    - uid: '@azure/arm-storage.Operation'
+      name: Operation
+      items: []
+    - uid: '@azure/arm-storage.OperationDisplay'
+      name: OperationDisplay
+      items: []
+    - uid: '@azure/arm-storage.OperationListResult'
+      name: OperationListResult
+      items: []
+    - uid: '@azure/arm-storage.Operations'
+      name: Operations
+      items: []
+    - uid: '@azure/arm-storage.OperationsListResponse'
+      name: OperationsListResponse
+      items: []
+    - uid: '@azure/arm-storage.Permissions'
+      name: Permissions
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpoint'
+      name: PrivateEndpoint
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpointConnection'
+      name: PrivateEndpointConnection
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpointConnectionListResult'
+      name: PrivateEndpointConnectionListResult
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpointConnectionProvisioningState'
+      name: PrivateEndpointConnectionProvisioningState
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpointConnections'
+      name: PrivateEndpointConnections
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpointConnectionsGetResponse'
+      name: PrivateEndpointConnectionsGetResponse
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpointConnectionsListResponse'
+      name: PrivateEndpointConnectionsListResponse
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpointConnectionsPutResponse'
+      name: PrivateEndpointConnectionsPutResponse
+      items: []
+    - uid: '@azure/arm-storage.PrivateEndpointServiceConnectionStatus'
+      name: PrivateEndpointServiceConnectionStatus
+      items: []
+    - uid: '@azure/arm-storage.PrivateLinkResource'
+      name: PrivateLinkResource
+      items: []
+    - uid: '@azure/arm-storage.PrivateLinkResourceListResult'
+      name: PrivateLinkResourceListResult
+      items: []
+    - uid: '@azure/arm-storage.PrivateLinkResources'
+      name: PrivateLinkResources
+      items: []
+    - uid: '@azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse'
+      name: PrivateLinkResourcesListByStorageAccountResponse
+      items: []
+    - uid: '@azure/arm-storage.PrivateLinkServiceConnectionState'
+      name: PrivateLinkServiceConnectionState
+      items: []
+    - uid: '@azure/arm-storage.ProvisioningState'
+      name: ProvisioningState
+      items: []
+    - uid: '@azure/arm-storage.ProxyResource'
+      name: ProxyResource
+      items: []
+    - uid: '@azure/arm-storage.PublicAccess'
+      name: PublicAccess
+      items: []
+    - uid: '@azure/arm-storage.Queue'
+      name: Queue
+      items: []
+    - uid: '@azure/arm-storage.QueueCreateOptionalParams'
+      name: QueueCreateOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.QueueCreateResponse'
+      name: QueueCreateResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueGetResponse'
+      name: QueueGetResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueListNextResponse'
+      name: QueueListNextResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueListOptionalParams'
+      name: QueueListOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.QueueListResponse'
+      name: QueueListResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueServiceProperties'
+      name: QueueServiceProperties
+      items: []
+    - uid: '@azure/arm-storage.QueueServices'
+      name: QueueServices
+      items: []
+    - uid: '@azure/arm-storage.QueueServicesGetServicePropertiesResponse'
+      name: QueueServicesGetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueServicesListResponse'
+      name: QueueServicesListResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueServicesSetServicePropertiesOptionalParams'
+      name: QueueServicesSetServicePropertiesOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.QueueServicesSetServicePropertiesResponse'
+      name: QueueServicesSetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.QueueUpdateOptionalParams'
+      name: QueueUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.QueueUpdateResponse'
+      name: QueueUpdateResponse
+      items: []
+    - uid: '@azure/arm-storage.Reason'
+      name: Reason
+      items: []
+    - uid: '@azure/arm-storage.ReasonCode'
+      name: ReasonCode
+      items: []
+    - uid: '@azure/arm-storage.Resource'
+      name: Resource
+      items: []
+    - uid: '@azure/arm-storage.RestorePolicyProperties'
+      name: RestorePolicyProperties
+      items: []
+    - uid: '@azure/arm-storage.Restriction'
+      name: Restriction
+      items: []
+    - uid: '@azure/arm-storage.RootSquashType'
+      name: RootSquashType
+      items: []
+    - uid: '@azure/arm-storage.RoutingChoice'
+      name: RoutingChoice
+      items: []
+    - uid: '@azure/arm-storage.RoutingPreference'
+      name: RoutingPreference
+      items: []
+    - uid: '@azure/arm-storage.Services'
+      name: Services
+      items: []
+    - uid: '@azure/arm-storage.ServiceSasParameters'
+      name: ServiceSasParameters
+      items: []
+    - uid: '@azure/arm-storage.ServiceSpecification'
+      name: ServiceSpecification
+      items: []
+    - uid: '@azure/arm-storage.ShareAccessTier'
+      name: ShareAccessTier
+      items: []
+    - uid: '@azure/arm-storage.SignedResource'
+      name: SignedResource
+      items: []
+    - uid: '@azure/arm-storage.SignedResourceTypes'
+      name: SignedResourceTypes
+      items: []
+    - uid: '@azure/arm-storage.Sku'
+      name: Sku
+      items: []
+    - uid: '@azure/arm-storage.SKUCapability'
+      name: SKUCapability
+      items: []
+    - uid: '@azure/arm-storage.SkuInformation'
+      name: SkuInformation
+      items: []
+    - uid: '@azure/arm-storage.SkuName'
+      name: SkuName
+      items: []
+    - uid: '@azure/arm-storage.Skus'
+      name: Skus
+      items: []
+    - uid: '@azure/arm-storage.SkusListResponse'
+      name: SkusListResponse
+      items: []
+    - uid: '@azure/arm-storage.SkuTier'
+      name: SkuTier
+      items: []
+    - uid: '@azure/arm-storage.State'
+      name: State
+      items: []
+    - uid: '@azure/arm-storage.StorageAccount'
+      name: StorageAccount
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountCheckNameAvailabilityParameters'
+      name: StorageAccountCheckNameAvailabilityParameters
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountCreateParameters'
+      name: StorageAccountCreateParameters
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountExpand'
+      name: StorageAccountExpand
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountInternetEndpoints'
+      name: StorageAccountInternetEndpoints
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountKey'
+      name: StorageAccountKey
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountListKeysResult'
+      name: StorageAccountListKeysResult
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountListResult'
+      name: StorageAccountListResult
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountMicrosoftEndpoints'
+      name: StorageAccountMicrosoftEndpoints
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountRegenerateKeyParameters'
+      name: StorageAccountRegenerateKeyParameters
+      items: []
+    - uid: '@azure/arm-storage.StorageAccounts'
+      name: StorageAccounts
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsBeginCreateResponse'
+      name: StorageAccountsBeginCreateResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsBeginRestoreBlobRangesResponse'
+      name: StorageAccountsBeginRestoreBlobRangesResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsCheckNameAvailabilityResponse'
+      name: StorageAccountsCheckNameAvailabilityResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsCreateResponse'
+      name: StorageAccountsCreateResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams'
+      name: StorageAccountsGetPropertiesOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsGetPropertiesResponse'
+      name: StorageAccountsGetPropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsListAccountSASResponse'
+      name: StorageAccountsListAccountSASResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsListByResourceGroupResponse'
+      name: StorageAccountsListByResourceGroupResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsListKeysOptionalParams'
+      name: StorageAccountsListKeysOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsListKeysResponse'
+      name: StorageAccountsListKeysResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsListNextResponse'
+      name: StorageAccountsListNextResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsListResponse'
+      name: StorageAccountsListResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsListServiceSASResponse'
+      name: StorageAccountsListServiceSASResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsRegenerateKeyResponse'
+      name: StorageAccountsRegenerateKeyResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse'
+      name: StorageAccountsRestoreBlobRangesResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountsUpdateResponse'
+      name: StorageAccountsUpdateResponse
+      items: []
+    - uid: '@azure/arm-storage.StorageAccountUpdateParameters'
+      name: StorageAccountUpdateParameters
+      items: []
+    - uid: '@azure/arm-storage.StorageManagementClient'
+      name: StorageManagementClient
+      items: []
+    - uid: '@azure/arm-storage.StorageManagementClientContext'
+      name: StorageManagementClientContext
+      items: []
+    - uid: '@azure/arm-storage.StorageManagementClientOptions'
+      name: StorageManagementClientOptions
+      items: []
+    - uid: '@azure/arm-storage.StorageQueue'
+      name: StorageQueue
+      items: []
+    - uid: '@azure/arm-storage.StorageSkuListResult'
+      name: StorageSkuListResult
+      items: []
+    - uid: '@azure/arm-storage.Table'
+      name: Table
+      items: []
+    - uid: '@azure/arm-storage.TableCreateResponse'
+      name: TableCreateResponse
+      items: []
+    - uid: '@azure/arm-storage.TableGetResponse'
+      name: TableGetResponse
+      items: []
+    - uid: '@azure/arm-storage.TableListNextResponse'
+      name: TableListNextResponse
+      items: []
+    - uid: '@azure/arm-storage.TableListResponse'
+      name: TableListResponse
+      items: []
+    - uid: '@azure/arm-storage.TableOperations'
+      name: TableOperations
+      items: []
+    - uid: '@azure/arm-storage.TableServiceProperties'
+      name: TableServiceProperties
+      items: []
+    - uid: '@azure/arm-storage.TableServices'
+      name: TableServices
+      items: []
+    - uid: '@azure/arm-storage.TableServicesGetServicePropertiesResponse'
+      name: TableServicesGetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.TableServicesListResponse'
+      name: TableServicesListResponse
+      items: []
+    - uid: '@azure/arm-storage.TableServicesSetServicePropertiesOptionalParams'
+      name: TableServicesSetServicePropertiesOptionalParams
+      items: []
+    - uid: '@azure/arm-storage.TableServicesSetServicePropertiesResponse'
+      name: TableServicesSetServicePropertiesResponse
+      items: []
+    - uid: '@azure/arm-storage.TableUpdateResponse'
+      name: TableUpdateResponse
+      items: []
+    - uid: '@azure/arm-storage.TagFilter'
+      name: TagFilter
+      items: []
+    - uid: '@azure/arm-storage.TagProperty'
+      name: TagProperty
+      items: []
+    - uid: '@azure/arm-storage.TrackedResource'
+      name: TrackedResource
+      items: []
+    - uid: '@azure/arm-storage.UpdateHistoryProperty'
+      name: UpdateHistoryProperty
+      items: []
+    - uid: '@azure/arm-storage.Usage'
+      name: Usage
+      items: []
+    - uid: '@azure/arm-storage.UsageListResult'
+      name: UsageListResult
+      items: []
+    - uid: '@azure/arm-storage.UsageName'
+      name: UsageName
+      items: []
+    - uid: '@azure/arm-storage.Usages'
+      name: Usages
+      items: []
+    - uid: '@azure/arm-storage.UsagesListByLocationResponse'
+      name: UsagesListByLocationResponse
+      items: []
+    - uid: '@azure/arm-storage.UsageUnit'
+      name: UsageUnit
+      items: []
+    - uid: '@azure/arm-storage.VirtualNetworkRule'
+      name: VirtualNetworkRule
+      items: []
 - name: '@azure/storage-blob'
   items:
     - name: Overview
@@ -67,6 +868,9 @@
       items: []
     - uid: '@azure/storage-blob.AppendBlobRequestConditions'
       name: AppendBlobRequestConditions
+      items: []
+    - uid: '@azure/storage-blob.AppendBlobSealOptions'
+      name: AppendBlobSealOptions
       items: []
     - uid: '@azure/storage-blob.AppendPositionAccessConditions'
       name: AppendPositionAccessConditions
@@ -167,6 +971,9 @@
     - uid: '@azure/storage-blob.BlobDownloadResponseModel'
       name: BlobDownloadResponseModel
       items: []
+    - uid: '@azure/storage-blob.BlobDownloadResponseParsed'
+      name: BlobDownloadResponseParsed
+      items: []
     - uid: '@azure/storage-blob.BlobDownloadToBufferOptions'
       name: BlobDownloadToBufferOptions
       items: []
@@ -187,6 +994,9 @@
       items: []
     - uid: '@azure/storage-blob.BlobGetPropertiesResponse'
       name: BlobGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-blob.BlobGetPropertiesResponseModel'
+      name: BlobGetPropertiesResponseModel
       items: []
     - uid: '@azure/storage-blob.BlobGetTagsHeaders'
       name: BlobGetTagsHeaders
@@ -235,9 +1045,6 @@
       items: []
     - uid: '@azure/storage-blob.BlobQueryResponseModel'
       name: BlobQueryResponseModel
-      items: []
-    - uid: '@azure/storage-blob.BlobQueryTextConfiguration'
-      name: BlobQueryTextConfiguration
       items: []
     - uid: '@azure/storage-blob.BlobReleaseLeaseOptions'
       name: BlobReleaseLeaseOptions
@@ -497,6 +1304,9 @@
     - uid: '@azure/storage-blob.ContainerRenewLeaseOptions'
       name: ContainerRenewLeaseOptions
       items: []
+    - uid: '@azure/storage-blob.ContainerRequestConditions'
+      name: ContainerRequestConditions
+      items: []
     - uid: '@azure/storage-blob.ContainerSASPermissions'
       name: ContainerSASPermissions
       items: []
@@ -602,14 +1412,32 @@
     - uid: '@azure/storage-blob.Logging'
       name: Logging
       items: []
+    - uid: '@azure/storage-blob.MatchConditions'
+      name: MatchConditions
+      items: []
     - uid: '@azure/storage-blob.Metadata'
       name: Metadata
       items: []
     - uid: '@azure/storage-blob.Metrics'
       name: Metrics
       items: []
+    - uid: '@azure/storage-blob.ModificationConditions'
+      name: ModificationConditions
+      items: []
     - uid: '@azure/storage-blob.ModifiedAccessConditions'
       name: ModifiedAccessConditions
+      items: []
+    - uid: '@azure/storage-blob.ModifiedAccessConditionsModel'
+      name: ModifiedAccessConditionsModel
+      items: []
+    - uid: '@azure/storage-blob.ObjectReplicationPolicy'
+      name: ObjectReplicationPolicy
+      items: []
+    - uid: '@azure/storage-blob.ObjectReplicationRule'
+      name: ObjectReplicationRule
+      items: []
+    - uid: '@azure/storage-blob.ObjectReplicationStatus'
+      name: ObjectReplicationStatus
       items: []
     - uid: '@azure/storage-blob.PageBlobClearPagesHeaders'
       name: PageBlobClearPagesHeaders
@@ -866,6 +1694,9 @@
     - uid: '@azure/storage-blob.SyncCopyStatusType'
       name: SyncCopyStatusType
       items: []
+    - uid: '@azure/storage-blob.TagConditions'
+      name: TagConditions
+      items: []
     - uid: '@azure/storage-blob.Tags'
       name: Tags
       items: []
@@ -874,6 +1705,1092 @@
       items: []
     - uid: '@azure/storage-blob.UserDelegationKeyModel'
       name: UserDelegationKeyModel
+      items: []
+- name: '@azure/storage-file-datalake'
+  items:
+    - name: Overview
+      uid: '@azure/storage-file-datalake'
+    - uid: '@azure/storage-file-datalake.AccessControlType'
+      name: AccessControlType
+      items: []
+    - uid: '@azure/storage-file-datalake.AccessPolicy'
+      name: AccessPolicy
+      items: []
+    - uid: '@azure/storage-file-datalake.AccountSASPermissions'
+      name: AccountSASPermissions
+      items: []
+    - uid: '@azure/storage-file-datalake.AccountSASResourceTypes'
+      name: AccountSASResourceTypes
+      items: []
+    - uid: '@azure/storage-file-datalake.AccountSASServices'
+      name: AccountSASServices
+      items: []
+    - uid: '@azure/storage-file-datalake.AccountSASSignatureValues'
+      name: AccountSASSignatureValues
+      items: []
+    - uid: '@azure/storage-file-datalake.AnonymousCredential'
+      name: AnonymousCredential
+      items: []
+    - uid: '@azure/storage-file-datalake.AnonymousCredentialPolicy'
+      name: AnonymousCredentialPolicy
+      items: []
+    - uid: '@azure/storage-file-datalake.CommonOptions'
+      name: CommonOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.CopyStatusType'
+      name: CopyStatusType
+      items: []
+    - uid: '@azure/storage-file-datalake.Credential'
+      name: Credential
+      items: []
+    - uid: '@azure/storage-file-datalake.CredentialPolicy'
+      name: CredentialPolicy
+      items: []
+    - uid: '@azure/storage-file-datalake.CredentialPolicyCreator'
+      name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient'
+      name: DataLakeDirectoryClient
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakeFileClient'
+      name: DataLakeFileClient
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient'
+      name: DataLakeFileSystemClient
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakeLeaseClient'
+      name: DataLakeLeaseClient
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakePathClient'
+      name: DataLakePathClient
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakeRequestConditions'
+      name: DataLakeRequestConditions
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakeSASPermissions'
+      name: DataLakeSASPermissions
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues'
+      name: DataLakeSASSignatureValues
+      items: []
+    - uid: '@azure/storage-file-datalake.DataLakeServiceClient'
+      name: DataLakeServiceClient
+      items: []
+    - uid: '@azure/storage-file-datalake.DirectoryCreateIfNotExistsOptions'
+      name: DirectoryCreateIfNotExistsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.DirectoryCreateIfNotExistsResponse'
+      name: DirectoryCreateIfNotExistsResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.DirectoryCreateOptions'
+      name: DirectoryCreateOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.DirectoryCreateResponse'
+      name: DirectoryCreateResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileAppendOptions'
+      name: FileAppendOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileAppendResponse'
+      name: FileAppendResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileCreateIfNotExistsOptions'
+      name: FileCreateIfNotExistsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileCreateIfNotExistsResponse'
+      name: FileCreateIfNotExistsResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileCreateOptions'
+      name: FileCreateOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileCreateResponse'
+      name: FileCreateResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileFlushOptions'
+      name: FileFlushOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileParallelUploadOptions'
+      name: FileParallelUploadOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileQueryCsvTextConfiguration'
+      name: FileQueryCsvTextConfiguration
+      items: []
+    - uid: '@azure/storage-file-datalake.FileQueryError'
+      name: FileQueryError
+      items: []
+    - uid: '@azure/storage-file-datalake.FileQueryJsonTextConfiguration'
+      name: FileQueryJsonTextConfiguration
+      items: []
+    - uid: '@azure/storage-file-datalake.FileQueryOptions'
+      name: FileQueryOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileReadHeaders'
+      name: FileReadHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileReadOptions'
+      name: FileReadOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileReadResponse'
+      name: FileReadResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileReadToBufferOptions'
+      name: FileReadToBufferOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemCreateHeaders'
+      name: FileSystemCreateHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemCreateIfNotExistsResponse'
+      name: FileSystemCreateIfNotExistsResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemCreateOptions'
+      name: FileSystemCreateOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemCreateResponse'
+      name: FileSystemCreateResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemDeleteHeaders'
+      name: FileSystemDeleteHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemDeleteIfExistsResponse'
+      name: FileSystemDeleteIfExistsResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemDeleteOptions'
+      name: FileSystemDeleteOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemDeleteResponse'
+      name: FileSystemDeleteResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemExistsOptions'
+      name: FileSystemExistsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders'
+      name: FileSystemGetAccessPolicyHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyOptions'
+      name: FileSystemGetAccessPolicyOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyResponse'
+      name: FileSystemGetAccessPolicyResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesHeaders'
+      name: FileSystemGetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesOptions'
+      name: FileSystemGetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesResponse'
+      name: FileSystemGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemItem'
+      name: FileSystemItem
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders'
+      name: FileSystemListPathsHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemListPathsResponse'
+      name: FileSystemListPathsResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemProperties'
+      name: FileSystemProperties
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemSASPermissions'
+      name: FileSystemSASPermissions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyHeaders'
+      name: FileSystemSetAccessPolicyHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions'
+      name: FileSystemSetAccessPolicyOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyResponse'
+      name: FileSystemSetAccessPolicyResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders'
+      name: FileSystemSetMetadataHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemSetMetadataOptions'
+      name: FileSystemSetMetadataOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemSetMetadataResponse'
+      name: FileSystemSetMetadataResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.LeaseDurationType'
+      name: LeaseDurationType
+      items: []
+    - uid: '@azure/storage-file-datalake.LeaseStateType'
+      name: LeaseStateType
+      items: []
+    - uid: '@azure/storage-file-datalake.LeaseStatusType'
+      name: LeaseStatusType
+      items: []
+    - uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse'
+      name: ListFileSystemsSegmentResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.ListPathsOptions'
+      name: ListPathsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.ListPathsSegmentOptions'
+      name: ListPathsSegmentOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.ListPathsSegmentResponse'
+      name: ListPathsSegmentResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.Metadata'
+      name: Metadata
+      items: []
+    - uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
+      name: ModifiedAccessConditions
+      items: []
+    - uid: '@azure/storage-file-datalake.Path'
+      name: Path
+      items: []
+    - uid: '@azure/storage-file-datalake.PathAccessControl'
+      name: PathAccessControl
+      items: []
+    - uid: '@azure/storage-file-datalake.PathAccessControlItem'
+      name: PathAccessControlItem
+      items: []
+    - uid: '@azure/storage-file-datalake.PathAppendDataHeaders'
+      name: PathAppendDataHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathCreateHeaders'
+      name: PathCreateHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathCreateHttpHeaders'
+      name: PathCreateHttpHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathCreateIfNotExistsOptions'
+      name: PathCreateIfNotExistsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathCreateIfNotExistsResponse'
+      name: PathCreateIfNotExistsResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathCreateOptions'
+      name: PathCreateOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathCreateResponse'
+      name: PathCreateResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathDeleteHeaders'
+      name: PathDeleteHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse'
+      name: PathDeleteIfExistsResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathDeleteOptions'
+      name: PathDeleteOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathDeleteResponse'
+      name: PathDeleteResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathExistsOptions'
+      name: PathExistsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathFlushDataHeaders'
+      name: PathFlushDataHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathFlushDataResponse'
+      name: PathFlushDataResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders'
+      name: PathGetAccessControlHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathGetAccessControlOptions'
+      name: PathGetAccessControlOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathGetAccessControlResponse'
+      name: PathGetAccessControlResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathGetPropertiesAction'
+      name: PathGetPropertiesAction
+      items: []
+    - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders'
+      name: PathGetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel'
+      name: PathGetPropertiesHeadersModel
+      items: []
+    - uid: '@azure/storage-file-datalake.PathGetPropertiesOptions'
+      name: PathGetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathGetPropertiesResponse'
+      name: PathGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathHttpHeaders'
+      name: PathHttpHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathList'
+      name: PathList
+      items: []
+    - uid: '@azure/storage-file-datalake.PathListModel'
+      name: PathListModel
+      items: []
+    - uid: '@azure/storage-file-datalake.PathModel'
+      name: PathModel
+      items: []
+    - uid: '@azure/storage-file-datalake.PathMoveOptions'
+      name: PathMoveOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathMoveResponse'
+      name: PathMoveResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathPermissions'
+      name: PathPermissions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathRemoveHeaders'
+      name: PathRemoveHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathRenameMode'
+      name: PathRenameMode
+      items: []
+    - uid: '@azure/storage-file-datalake.PathResourceType'
+      name: PathResourceType
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders'
+      name: PathSetAccessControlHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetAccessControlOptions'
+      name: PathSetAccessControlOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetAccessControlResponse'
+      name: PathSetAccessControlResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders'
+      name: PathSetHttpHeadersHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetHttpHeadersOptions'
+      name: PathSetHttpHeadersOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetHttpHeadersResponse'
+      name: PathSetHttpHeadersResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders'
+      name: PathSetMetadataHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetMetadataOptions'
+      name: PathSetMetadataOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetMetadataResponse'
+      name: PathSetMetadataResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.PathSetPermissionsOptions'
+      name: PathSetPermissionsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PathUpdateHeaders'
+      name: PathUpdateHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.Pipeline'
+      name: Pipeline
+      items: []
+    - uid: '@azure/storage-file-datalake.PipelineOptions'
+      name: PipelineOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.PublicAccessType'
+      name: PublicAccessType
+      items: []
+    - uid: '@azure/storage-file-datalake.RawAccessPolicy'
+      name: RawAccessPolicy
+      items: []
+    - uid: '@azure/storage-file-datalake.RolePermissions'
+      name: RolePermissions
+      items: []
+    - uid: '@azure/storage-file-datalake.SasIPRange'
+      name: SasIPRange
+      items: []
+    - uid: '@azure/storage-file-datalake.SASProtocol'
+      name: SASProtocol
+      items: []
+    - uid: '@azure/storage-file-datalake.SASQueryParameters'
+      name: SASQueryParameters
+      items: []
+    - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders'
+      name: ServiceGetUserDelegationKeyHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions'
+      name: ServiceGetUserDelegationKeyOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyResponse'
+      name: ServiceGetUserDelegationKeyResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions'
+      name: ServiceListFileSystemsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders'
+      name: ServiceListFileSystemsSegmentHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse'
+      name: ServiceListFileSystemsSegmentResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.SignedIdentifier'
+      name: SignedIdentifier
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageBrowserPolicy'
+      name: StorageBrowserPolicy
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageBrowserPolicyFactory'
+      name: StorageBrowserPolicyFactory
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageClient'
+      name: StorageClient
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageClientContext'
+      name: StorageClientContext
+      items: []
+    - uid: '@azure/storage-file-datalake.StoragePipelineOptions'
+      name: StoragePipelineOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageRetryOptions'
+      name: StorageRetryOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageRetryPolicy'
+      name: StorageRetryPolicy
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageRetryPolicyFactory'
+      name: StorageRetryPolicyFactory
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageRetryPolicyType'
+      name: StorageRetryPolicyType
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageSharedKeyCredential'
+      name: StorageSharedKeyCredential
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageSharedKeyCredentialPolicy'
+      name: StorageSharedKeyCredentialPolicy
+      items: []
+    - uid: '@azure/storage-file-datalake.UserDelegationKey'
+      name: UserDelegationKey
+      items: []
+- name: '@azure/storage-file-share'
+  items:
+    - name: Overview
+      uid: '@azure/storage-file-share'
+    - uid: '@azure/storage-file-share.AccessPolicy'
+      name: AccessPolicy
+      items: []
+    - uid: '@azure/storage-file-share.AccountSASPermissions'
+      name: AccountSASPermissions
+      items: []
+    - uid: '@azure/storage-file-share.AccountSASResourceTypes'
+      name: AccountSASResourceTypes
+      items: []
+    - uid: '@azure/storage-file-share.AccountSASServices'
+      name: AccountSASServices
+      items: []
+    - uid: '@azure/storage-file-share.AccountSASSignatureValues'
+      name: AccountSASSignatureValues
+      items: []
+    - uid: '@azure/storage-file-share.AnonymousCredential'
+      name: AnonymousCredential
+      items: []
+    - uid: '@azure/storage-file-share.AnonymousCredentialPolicy'
+      name: AnonymousCredentialPolicy
+      items: []
+    - uid: '@azure/storage-file-share.CloseHandlesInfo'
+      name: CloseHandlesInfo
+      items: []
+    - uid: '@azure/storage-file-share.CommonOptions'
+      name: CommonOptions
+      items: []
+    - uid: '@azure/storage-file-share.CopyFileSmbInfo'
+      name: CopyFileSmbInfo
+      items: []
+    - uid: '@azure/storage-file-share.CopyStatusType'
+      name: CopyStatusType
+      items: []
+    - uid: '@azure/storage-file-share.CorsRule'
+      name: CorsRule
+      items: []
+    - uid: '@azure/storage-file-share.Credential'
+      name: Credential
+      items: []
+    - uid: '@azure/storage-file-share.CredentialPolicy'
+      name: CredentialPolicy
+      items: []
+    - uid: '@azure/storage-file-share.CredentialPolicyCreator'
+      name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-share.DeleteSnapshotsOptionType'
+      name: DeleteSnapshotsOptionType
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryCloseHandlesHeaders'
+      name: DirectoryCloseHandlesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryCreateHeaders'
+      name: DirectoryCreateHeaders
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryCreateIfNotExistsResponse'
+      name: DirectoryCreateIfNotExistsResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryCreateOptions'
+      name: DirectoryCreateOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryCreateResponse'
+      name: DirectoryCreateResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryDeleteHeaders'
+      name: DirectoryDeleteHeaders
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryDeleteIfExistsResponse'
+      name: DirectoryDeleteIfExistsResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryDeleteOptions'
+      name: DirectoryDeleteOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryDeleteResponse'
+      name: DirectoryDeleteResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryExistsOptions'
+      name: DirectoryExistsOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryForceCloseHandlesHeaders'
+      name: DirectoryForceCloseHandlesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryForceCloseHandlesOptions'
+      name: DirectoryForceCloseHandlesOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryForceCloseHandlesResponse'
+      name: DirectoryForceCloseHandlesResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryForceCloseHandlesSegmentOptions'
+      name: DirectoryForceCloseHandlesSegmentOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryGetPropertiesHeaders'
+      name: DirectoryGetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryGetPropertiesOptions'
+      name: DirectoryGetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryGetPropertiesResponse'
+      name: DirectoryGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryItem'
+      name: DirectoryItem
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryListFilesAndDirectoriesOptions'
+      name: DirectoryListFilesAndDirectoriesOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryListFilesAndDirectoriesSegmentHeaders'
+      name: DirectoryListFilesAndDirectoriesSegmentHeaders
+      items: []
+    - uid: >-
+        @azure/storage-file-share.DirectoryListFilesAndDirectoriesSegmentResponse
+      name: DirectoryListFilesAndDirectoriesSegmentResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryListHandlesHeaders'
+      name: DirectoryListHandlesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryListHandlesOptions'
+      name: DirectoryListHandlesOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryListHandlesResponse'
+      name: DirectoryListHandlesResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryListHandlesSegmentOptions'
+      name: DirectoryListHandlesSegmentOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectoryProperties'
+      name: DirectoryProperties
+      items: []
+    - uid: '@azure/storage-file-share.DirectorySetMetadataHeaders'
+      name: DirectorySetMetadataHeaders
+      items: []
+    - uid: '@azure/storage-file-share.DirectorySetMetadataOptions'
+      name: DirectorySetMetadataOptions
+      items: []
+    - uid: '@azure/storage-file-share.DirectorySetMetadataResponse'
+      name: DirectorySetMetadataResponse
+      items: []
+    - uid: '@azure/storage-file-share.DirectorySetPropertiesHeaders'
+      name: DirectorySetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.DirectorySetPropertiesResponse'
+      name: DirectorySetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileAbortCopyFromURLOptions'
+      name: FileAbortCopyFromURLOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileAbortCopyHeaders'
+      name: FileAbortCopyHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileAbortCopyResponse'
+      name: FileAbortCopyResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileAndDirectoryCreateCommonOptions'
+      name: FileAndDirectoryCreateCommonOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileAndDirectorySetPropertiesCommonOptions'
+      name: FileAndDirectorySetPropertiesCommonOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileAttributesPreserveType'
+      name: FileAttributesPreserveType
+      items: []
+    - uid: '@azure/storage-file-share.FileClearRangeOptions'
+      name: FileClearRangeOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileCloseHandlesHeaders'
+      name: FileCloseHandlesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileCreateHeaders'
+      name: FileCreateHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileCreateOptions'
+      name: FileCreateOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileCreateResponse'
+      name: FileCreateResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileDeleteHeaders'
+      name: FileDeleteHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileDeleteIfExistsResponse'
+      name: FileDeleteIfExistsResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileDeleteOptions'
+      name: FileDeleteOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileDeleteResponse'
+      name: FileDeleteResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileDownloadHeaders'
+      name: FileDownloadHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileDownloadOptionalParams'
+      name: FileDownloadOptionalParams
+      items: []
+    - uid: '@azure/storage-file-share.FileDownloadOptions'
+      name: FileDownloadOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileDownloadResponseModel'
+      name: FileDownloadResponseModel
+      items: []
+    - uid: '@azure/storage-file-share.FileDownloadToBufferOptions'
+      name: FileDownloadToBufferOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileExistsOptions'
+      name: FileExistsOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileForceCloseHandlesHeaders'
+      name: FileForceCloseHandlesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileForceCloseHandlesOptions'
+      name: FileForceCloseHandlesOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileForceCloseHandlesResponse'
+      name: FileForceCloseHandlesResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileGetPropertiesHeaders'
+      name: FileGetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileGetPropertiesOptions'
+      name: FileGetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileGetPropertiesResponse'
+      name: FileGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileGetRangeListHeaders'
+      name: FileGetRangeListHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileGetRangeListOptions'
+      name: FileGetRangeListOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileGetRangeListResponse'
+      name: FileGetRangeListResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileHttpHeaders'
+      name: FileHttpHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileItem'
+      name: FileItem
+      items: []
+    - uid: '@azure/storage-file-share.FileListHandlesHeaders'
+      name: FileListHandlesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileListHandlesOptions'
+      name: FileListHandlesOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileListHandlesResponse'
+      name: FileListHandlesResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileListHandlesSegmentOptions'
+      name: FileListHandlesSegmentOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileParallelUploadOptions'
+      name: FileParallelUploadOptions
+      items: []
+    - uid: '@azure/storage-file-share.FilePermissionInheritType'
+      name: FilePermissionInheritType
+      items: []
+    - uid: '@azure/storage-file-share.FilePermissionPreserveType'
+      name: FilePermissionPreserveType
+      items: []
+    - uid: '@azure/storage-file-share.FileProperties'
+      name: FileProperties
+      items: []
+    - uid: '@azure/storage-file-share.FileProperty'
+      name: FileProperty
+      items: []
+    - uid: '@azure/storage-file-share.FileResizeOptions'
+      name: FileResizeOptions
+      items: []
+    - uid: '@azure/storage-file-share.FilesAndDirectoriesListSegment'
+      name: FilesAndDirectoriesListSegment
+      items: []
+    - uid: '@azure/storage-file-share.FileSASPermissions'
+      name: FileSASPermissions
+      items: []
+    - uid: '@azure/storage-file-share.FileSASSignatureValues'
+      name: FileSASSignatureValues
+      items: []
+    - uid: '@azure/storage-file-share.FileServiceProperties'
+      name: FileServiceProperties
+      items: []
+    - uid: '@azure/storage-file-share.FileSetHTTPHeadersHeaders'
+      name: FileSetHTTPHeadersHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileSetHttpHeadersOptions'
+      name: FileSetHttpHeadersOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileSetHTTPHeadersResponse'
+      name: FileSetHTTPHeadersResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileSetMetadataHeaders'
+      name: FileSetMetadataHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileSetMetadataOptions'
+      name: FileSetMetadataOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileSetMetadataResponse'
+      name: FileSetMetadataResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileStartCopyHeaders'
+      name: FileStartCopyHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileStartCopyOptions'
+      name: FileStartCopyOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileStartCopyResponse'
+      name: FileStartCopyResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileSystemAttributes'
+      name: FileSystemAttributes
+      items: []
+    - uid: '@azure/storage-file-share.FileType'
+      name: FileType
+      items: []
+    - uid: '@azure/storage-file-share.FileUploadRangeFromURLHeaders'
+      name: FileUploadRangeFromURLHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileUploadRangeFromURLOptionalParams'
+      name: FileUploadRangeFromURLOptionalParams
+      items: []
+    - uid: '@azure/storage-file-share.FileUploadRangeFromURLOptions'
+      name: FileUploadRangeFromURLOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileUploadRangeFromURLResponse'
+      name: FileUploadRangeFromURLResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileUploadRangeHeaders'
+      name: FileUploadRangeHeaders
+      items: []
+    - uid: '@azure/storage-file-share.FileUploadRangeOptions'
+      name: FileUploadRangeOptions
+      items: []
+    - uid: '@azure/storage-file-share.FileUploadRangeResponse'
+      name: FileUploadRangeResponse
+      items: []
+    - uid: '@azure/storage-file-share.FileUploadStreamOptions'
+      name: FileUploadStreamOptions
+      items: []
+    - uid: '@azure/storage-file-share.HandleItem'
+      name: HandleItem
+      items: []
+    - uid: '@azure/storage-file-share.LeaseAccessConditions'
+      name: LeaseAccessConditions
+      items: []
+    - uid: '@azure/storage-file-share.LeaseDurationType'
+      name: LeaseDurationType
+      items: []
+    - uid: '@azure/storage-file-share.LeaseOperationOptions'
+      name: LeaseOperationOptions
+      items: []
+    - uid: '@azure/storage-file-share.LeaseOperationResponse'
+      name: LeaseOperationResponse
+      items: []
+    - uid: '@azure/storage-file-share.LeaseOperationResponseHeaders'
+      name: LeaseOperationResponseHeaders
+      items: []
+    - uid: '@azure/storage-file-share.LeaseStateType'
+      name: LeaseStateType
+      items: []
+    - uid: '@azure/storage-file-share.LeaseStatusType'
+      name: LeaseStatusType
+      items: []
+    - uid: '@azure/storage-file-share.ListFilesAndDirectoriesSegmentResponse'
+      name: ListFilesAndDirectoriesSegmentResponse
+      items: []
+    - uid: '@azure/storage-file-share.ListHandlesResponse'
+      name: ListHandlesResponse
+      items: []
+    - uid: '@azure/storage-file-share.ListSharesIncludeType'
+      name: ListSharesIncludeType
+      items: []
+    - uid: '@azure/storage-file-share.ListSharesResponse'
+      name: ListSharesResponse
+      items: []
+    - uid: '@azure/storage-file-share.Metadata'
+      name: Metadata
+      items: []
+    - uid: '@azure/storage-file-share.Metrics'
+      name: Metrics
+      items: []
+    - uid: '@azure/storage-file-share.PermissionCopyModeType'
+      name: PermissionCopyModeType
+      items: []
+    - uid: '@azure/storage-file-share.Pipeline'
+      name: Pipeline
+      items: []
+    - uid: '@azure/storage-file-share.PipelineOptions'
+      name: PipelineOptions
+      items: []
+    - uid: '@azure/storage-file-share.Range'
+      name: Range
+      items: []
+    - uid: '@azure/storage-file-share.RangeModel'
+      name: RangeModel
+      items: []
+    - uid: '@azure/storage-file-share.RetentionPolicy'
+      name: RetentionPolicy
+      items: []
+    - uid: '@azure/storage-file-share.SasIPRange'
+      name: SasIPRange
+      items: []
+    - uid: '@azure/storage-file-share.SASProtocol'
+      name: SASProtocol
+      items: []
+    - uid: '@azure/storage-file-share.SASQueryParameters'
+      name: SASQueryParameters
+      items: []
+    - uid: '@azure/storage-file-share.ServiceGetPropertiesHeaders'
+      name: ServiceGetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ServiceGetPropertiesOptions'
+      name: ServiceGetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-file-share.ServiceGetPropertiesResponse'
+      name: ServiceGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-share.ServiceListSharesOptions'
+      name: ServiceListSharesOptions
+      items: []
+    - uid: '@azure/storage-file-share.ServiceListSharesSegmentHeaders'
+      name: ServiceListSharesSegmentHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ServiceListSharesSegmentResponse'
+      name: ServiceListSharesSegmentResponse
+      items: []
+    - uid: '@azure/storage-file-share.ServiceSetPropertiesHeaders'
+      name: ServiceSetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ServiceSetPropertiesOptions'
+      name: ServiceSetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-file-share.ServiceSetPropertiesResponse'
+      name: ServiceSetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-share.ServiceUndeleteShareOptions'
+      name: ServiceUndeleteShareOptions
+      items: []
+    - uid: '@azure/storage-file-share.SetPropertiesResponse'
+      name: SetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareClient'
+      name: ShareClient
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreateHeaders'
+      name: ShareCreateHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreateIfNotExistsResponse'
+      name: ShareCreateIfNotExistsResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreateOptions'
+      name: ShareCreateOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreatePermissionHeaders'
+      name: ShareCreatePermissionHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreatePermissionOptions'
+      name: ShareCreatePermissionOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreatePermissionResponse'
+      name: ShareCreatePermissionResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreateResponse'
+      name: ShareCreateResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreateSnapshotHeaders'
+      name: ShareCreateSnapshotHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreateSnapshotOptions'
+      name: ShareCreateSnapshotOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareCreateSnapshotResponse'
+      name: ShareCreateSnapshotResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareDeleteHeaders'
+      name: ShareDeleteHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareDeleteIfExistsResponse'
+      name: ShareDeleteIfExistsResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareDeleteMethodOptions'
+      name: ShareDeleteMethodOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareDeleteResponse'
+      name: ShareDeleteResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareDirectoryClient'
+      name: ShareDirectoryClient
+      items: []
+    - uid: '@azure/storage-file-share.ShareExistsOptions'
+      name: ShareExistsOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareFileClient'
+      name: ShareFileClient
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetAccessPolicyHeaders'
+      name: ShareGetAccessPolicyHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetAccessPolicyOptions'
+      name: ShareGetAccessPolicyOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetAccessPolicyResponse'
+      name: ShareGetAccessPolicyResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetPermissionHeaders'
+      name: ShareGetPermissionHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetPermissionOptions'
+      name: ShareGetPermissionOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetPermissionResponse'
+      name: ShareGetPermissionResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetPropertiesHeaders'
+      name: ShareGetPropertiesHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetPropertiesOptions'
+      name: ShareGetPropertiesOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetPropertiesResponse'
+      name: ShareGetPropertiesResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetStatisticsHeaders'
+      name: ShareGetStatisticsHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetStatisticsOptions'
+      name: ShareGetStatisticsOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetStatisticsResponse'
+      name: ShareGetStatisticsResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareGetStatisticsResponseModel'
+      name: ShareGetStatisticsResponseModel
+      items: []
+    - uid: '@azure/storage-file-share.ShareItem'
+      name: ShareItem
+      items: []
+    - uid: '@azure/storage-file-share.ShareLeaseClient'
+      name: ShareLeaseClient
+      items: []
+    - uid: '@azure/storage-file-share.SharePermission'
+      name: SharePermission
+      items: []
+    - uid: '@azure/storage-file-share.ShareProperties'
+      name: ShareProperties
+      items: []
+    - uid: '@azure/storage-file-share.ShareSASPermissions'
+      name: ShareSASPermissions
+      items: []
+    - uid: '@azure/storage-file-share.ShareServiceClient'
+      name: ShareServiceClient
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetAccessPolicyHeaders'
+      name: ShareSetAccessPolicyHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetAccessPolicyOptions'
+      name: ShareSetAccessPolicyOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetAccessPolicyResponse'
+      name: ShareSetAccessPolicyResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetMetadataHeaders'
+      name: ShareSetMetadataHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetMetadataOptions'
+      name: ShareSetMetadataOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetMetadataResponse'
+      name: ShareSetMetadataResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetQuotaHeaders'
+      name: ShareSetQuotaHeaders
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetQuotaOptions'
+      name: ShareSetQuotaOptions
+      items: []
+    - uid: '@azure/storage-file-share.ShareSetQuotaResponse'
+      name: ShareSetQuotaResponse
+      items: []
+    - uid: '@azure/storage-file-share.ShareStats'
+      name: ShareStats
+      items: []
+    - uid: '@azure/storage-file-share.SignedIdentifier'
+      name: SignedIdentifier
+      items: []
+    - uid: '@azure/storage-file-share.SignedIdentifierModel'
+      name: SignedIdentifierModel
+      items: []
+    - uid: '@azure/storage-file-share.SourceModifiedAccessConditions'
+      name: SourceModifiedAccessConditions
+      items: []
+    - uid: '@azure/storage-file-share.StorageBrowserPolicy'
+      name: StorageBrowserPolicy
+      items: []
+    - uid: '@azure/storage-file-share.StorageBrowserPolicyFactory'
+      name: StorageBrowserPolicyFactory
+      items: []
+    - uid: '@azure/storage-file-share.StorageClient'
+      name: StorageClient
+      items: []
+    - uid: '@azure/storage-file-share.StorageClientContext'
+      name: StorageClientContext
+      items: []
+    - uid: '@azure/storage-file-share.StoragePipelineOptions'
+      name: StoragePipelineOptions
+      items: []
+    - uid: '@azure/storage-file-share.StorageRetryOptions'
+      name: StorageRetryOptions
+      items: []
+    - uid: '@azure/storage-file-share.StorageRetryPolicy'
+      name: StorageRetryPolicy
+      items: []
+    - uid: '@azure/storage-file-share.StorageRetryPolicyFactory'
+      name: StorageRetryPolicyFactory
+      items: []
+    - uid: '@azure/storage-file-share.StorageRetryPolicyType'
+      name: StorageRetryPolicyType
+      items: []
+    - uid: '@azure/storage-file-share.StorageSharedKeyCredential'
+      name: StorageSharedKeyCredential
+      items: []
+    - uid: '@azure/storage-file-share.StorageSharedKeyCredentialPolicy'
+      name: StorageSharedKeyCredentialPolicy
+      items: []
+    - uid: '@azure/storage-file-share.TimeNowType'
+      name: TimeNowType
+      items: []
+    - uid: '@azure/storage-file-share.TimePreserveType'
+      name: TimePreserveType
       items: []
 - name: '@azure/storage-queue'
   items:
